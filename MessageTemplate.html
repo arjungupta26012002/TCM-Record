@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    color: #e6b800;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .indent-line {
+    padding-left: 40px;
+  }
+  b, strong {
+      font-weight: bold;
+  }
+</style>
+
+</head>
+<body>
+
+  <p>Hello @everyone,</p><br>
+
+  <p>We hope you had a productive day! 🌟</p><br>
+  <p>For those who could not attend the recent Team Circle Meeting or would like to revisit the key points discussed, the session recording is now available. 🎥</p><br>
+
+  <p>📅 <b>Session Details:</b></p><br>
+  <p class="indent-line"><b>&emsp;&emsp;Session Title:</b> <?= internshipName ?> - Team Circle Meeting - Week <?= week ?></p>
+  <p class="indent-line"><b>&emsp;&emsp;Date:</b> <?= dateTime ?></p>
+  <p class="indent-line"><b>&emsp;&emsp;Recording Link:</b> <a href="<?= recordingLink ?>" target="_blank"><?= fileName ?></a></p><br>
+  <p>We kindly request all team members to review the recording at their earliest convenience to stay informed.
+Thank you for your cooperation.</p><br>
+
+  <p>Best regards,</p><br>
+
+  <p><b><?= name ?></b><br>
+  Talent Discovery Team<br>
+  <b>Excelerate</b></p>
+
+</body>
+</html>
